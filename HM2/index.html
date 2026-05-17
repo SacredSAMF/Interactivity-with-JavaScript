@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Photo Gallery</title>
+	<link rel="stylesheet" href="css/gallery.css">
+	<script src = "js/gallery.js"></script>
+</head>
+<body onload="siteLoaded()">
+	
+	<div id="image">
+		Hover over an image below to display here.
+	</div>
+	
+    <ul class="gallery-list">
+        <li>
+            <img src="images/view1-thumb.jpg" width="360" height="480" class="preview" onmouseover="upDate(this)" onfocus="upDate(this)" onmouseout="unDo()" onblur="unDo()" alt="Newly constructed apartment building exterior" title="Place, I wanted to live in"  loading="lazy">
+        </li>
+        <li>
+            <img src="images/view2-thumb.jpg" width="360" height="480" class="preview" onmouseover="upDate(this)" onfocus="upDate(this)" onmouseout="unDo()" onblur="unDo()" alt="Apartment and business building exterior" title="Place, I pass by every day" loading="lazy">
+        </li>
+        <li>
+            <img src="images/view3-thumb.jpg" width="360" height="480" class="preview" onmouseover="upDate(this)" onfocus="upDate(this)" onmouseout="unDo()" onblur="unDo()" alt="Exterior of a gym building" title="Gym, I used to go to" loading="lazy">
+        </li>
+        <li>
+            <img src="images/view4-thumb.jpg" width="360" height="480" class="preview" onmouseover="upDate(this)" onfocus="upDate(this)" onmouseout="unDo()" onblur="unDo()" alt="Facade of a hotel building" title="Place, I want to stay in someday" loading="lazy">
+        </li>
+        <li>
+            <img src="images/view5-thumb.jpg" width="360" height="480" class="preview" onmouseover="upDate(this)" onfocus="upDate(this)" onmouseout="unDo()" onblur="unDo()" alt="Apartment building exterior" title="Place, my buddy lives in" loading="lazy">
+        </li>
+        <li>
+            <img src="images/view6-thumb.jpg" width="360" height="480" class="preview" onmouseover="upDate(this)" onfocus="upDate(this)" onmouseout="unDo()" onblur="unDo()" alt="School building exterior" title="School, and a very noisy one" loading="lazy">
+        </li>
+    </ul>
+
+</body>
+</html>

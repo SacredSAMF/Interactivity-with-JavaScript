@@ -1,0 +1,67 @@
+/*Name this external file gallery.css*/
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+body{
+    margin: 2%;
+    border: 1px solid black;
+    background-color: #b3b3b3;
+}
+img{
+	width:100%;
+    height: auto;
+}
+
+#image{
+	width: 100%;
+    max-width: 575px;
+    height: 107.9734219269103vw;
+    max-height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	margin: 0 auto 25px;
+    border: 5px solid black;
+    background-color: #8e68ff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-shadow: 2px 2px 2px #000;
+    text-align: center;
+    font-size: 150%;
+    color:#FFFFFF;
+}
+
+.gallery-list{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1rem 1rem;
+    margin: 2rem 0;
+    padding: 0;
+}
+.gallery-list:last-child{
+    margin-bottom: 0;
+}
+.gallery-list li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.preview{
+    border: 10px solid black;
+}
+.preview:hover, .preview:focus{
+    border-color : #8e68ff;
+}
+@media (min-width: 414px){
+    .gallery-list{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (min-width: 768px){
+    .gallery-list{
+        grid-template-columns: repeat(6, 1fr);
+    }
+}
