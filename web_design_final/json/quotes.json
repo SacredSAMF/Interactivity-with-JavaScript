@@ -1,0 +1,77 @@
+[
+    {
+        "id": 1,
+        "quote": "Enjoy the little things, for one day you may look back and realize they were the big things.",
+        "cite": "Robert Brault"
+    },
+    {
+        "id": 2,
+        "quote": "Life is really simple, but we insist on making it complicated.",
+        "cite": "Confucius"
+    },
+    {
+        "id": 3,
+        "quote": "The secret of happiness is not found in seeking more, but in developing the capacity to enjoy less.",
+        "cite": "Socrates"
+    },
+    {
+        "id": 4,
+        "quote": "Small daily improvements are the key to staggering long-term results.",
+        "cite": "Robin Sharma"
+    },
+    {
+        "id": 5,
+        "quote": "Happiness is not by chance, but by choice.",
+        "cite": "Jim Rohn"
+    },
+    {
+        "id": 6,
+        "quote": "There is no greatness where there is not simplicity.",
+        "cite": "Leo Tolstoy"
+    },
+    {
+        "id": 7,
+        "quote": "We do not remember days, we remember moments.",
+        "cite": "Cesare Pavese"
+    },
+    {
+        "id": 8,
+        "quote": "The little things? The little moments? They aren't little.",
+        "cite": "Jon Kabat-Zinn"
+    },
+    {
+        "id": 9,
+        "quote": "Simplicity is the ultimate sophistication.",
+        "cite": "Leonardo da Vinci"
+    },
+    {
+        "id": 10,
+        "quote": "An ordinary day is a gift.",
+        "cite": "Unknown"
+    },
+    {
+        "id": 11,
+        "quote": "The only way to do great work is to love what you do.",
+        "cite": "Steve Jobs"
+    },
+    {
+        "id": 12,
+        "quote": "In the middle of every difficulty lies opportunity.",
+        "cite": "Albert Einstein"
+    },
+    {
+        "id": 13,
+        "quote": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+        "cite": "Winston Churchill"
+    },
+    {
+        "id": 14,
+        "quote": "Believe you can and you're halfway there.",
+        "cite": "Theodore Roosevelt"
+    },
+    {
+        "id": 15,
+        "quote": "The best way to predict the future is to invent it.",
+        "cite": "Alan Kay"
+    }
+]

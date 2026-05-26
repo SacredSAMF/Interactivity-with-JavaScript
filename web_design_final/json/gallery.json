@@ -1,0 +1,142 @@
+[
+    {
+        "id": 1,
+        "title": "My go-to cup for game nights",
+        "alt": "A ceramic mug with a board game print",
+        "url": "images/cup1.jpg",
+        "thumb": "images/cup1-thumb.jpg"
+    },
+    {
+        "id": 2,
+        "title": "My tea cup",
+        "alt": "Tea Cup",
+        "url": "images/cup2.jpg",
+        "thumb": "images/cup2-thumb.jpg"
+    },
+    {
+        "id": 3,
+        "title": "My wine and spirits cup",
+        "alt": "Wine and Spirits Cup",
+        "url": "images/cup3.jpg",
+        "thumb": "images/cup3-thumb.jpg"
+    },
+    {
+        "id": 4,
+        "title": "My professional cup",
+        "alt": "Professional Cup",
+        "url": "images/cup4.jpg",
+        "thumb": "images/cup4-thumb.jpg"
+    },
+    {
+        "id": 5,
+        "title": "My joking around cup",
+        "alt": "Joking Around Cup",
+        "url": "images/cup5.jpg",
+        "thumb": "images/cup5-thumb.jpg"
+    },
+    {
+        "id": 6,
+        "title": "My mom's cup",
+        "alt": "Mom's Cup",
+        "url": "images/cup6.jpg",
+        "thumb": "images/cup6-thumb.jpg"
+    },
+    {
+        "id": 7,
+        "title": "Guest Cup",
+        "alt": "Guest Cup",
+        "url": "images/cup7.jpg",
+        "thumb": "images/cup7-thumb.jpg"
+    },
+    {
+        "id": 8,
+        "title": "My coffee cup",
+        "alt": "Coffee Cup 1",
+        "url": "images/cup8.jpg",
+        "thumb": "images/cup8-thumb.jpg"
+    },
+    {
+        "id": 9,
+        "title": "Gift Cup",
+        "alt": "Gift Cup",
+        "url": "images/cup9.jpg",
+        "thumb": "images/cup9-thumb.jpg"
+    },
+    {
+        "id": 10,
+        "title": "Herb tea cup",
+        "alt": "Herb Tea Cup",
+        "url": "images/cup10.jpg",
+        "thumb": "images/cup10-thumb.jpg"
+    },
+    {
+        "id": 11,
+        "title": "Another coffee cup",
+        "alt": "Coffee Cup 2",
+        "url": "images/cup11.jpg",
+        "thumb": "images/cup11-thumb.jpg"
+    },
+    {
+        "id": 12,
+        "title": "Another gift cup",
+        "alt": "Gift Cup 2",
+        "url": "images/cup12.jpg",
+        "thumb": "images/cup12-thumb.jpg"
+    },
+    {
+        "id": 13,
+        "title": "Yet another gift cup",
+        "alt": "Gift Cup 3",
+        "url": "images/cup13.jpg",
+        "thumb": "images/cup13-thumb.jpg"
+    },
+    {
+        "id": 14,
+        "title": "Place, I wanted to live in",
+        "alt": "Newly constructed apartment building exterior",
+        "url": "images/view1.jpg",
+        "thumb": "images/view1-thumb.jpg"
+    },
+    {
+        "id": 14,
+        "title": "Place, I pass by every day",
+        "alt": "Apartment and business building exterior",
+        "url": "images/view2.jpg",
+        "thumb": "images/view2-thumb.jpg"
+    },
+    {
+        "id": 15,
+        "title": "Gym, I used to go to",
+        "alt": "Exterior of a gym building",
+        "url": "images/view3.jpg",
+        "thumb": "images/view3-thumb.jpg"
+    },
+    {
+        "id": 16,
+        "title": "Place, I want to stay in someday",
+        "alt": "Facade of a hotel building",
+        "url": "images/view4.jpg",
+        "thumb": "images/view4-thumb.jpg"
+    },
+    {
+        "id": 17,
+        "title": "Place, my buddy lives in",
+        "alt": "Apartment building exterior",
+        "url": "images/view5.jpg",
+        "thumb": "images/view5-thumb.jpg"
+    },
+    {
+        "id": 18,
+        "title": "School, and a very noisy one",
+        "alt": "School building exterior",
+        "url": "images/view6.jpg",
+        "thumb": "images/view6-thumb.jpg"
+    },
+    {
+        "id": 19,
+        "title": "Place I used to play at, before it was built",
+        "alt": "Newly constructed building on a lot that was previously open ground",
+        "url": "images/view7.jpg",
+        "thumb": "images/view7-thumb.jpg"
+    }
+]
