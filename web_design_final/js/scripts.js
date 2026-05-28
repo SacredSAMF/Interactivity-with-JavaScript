@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         let html = '<ul class="gallery-list">';
                         html += randomElements.map(item => `
                             <li>
-                                <a href="${item.image}" target="_blank">
+                                <a href="${item.url}" class="glightbox-dynamic" target="_blank">
                                     <img src="${item.thumb}" width="360" height="480" alt="${item.alt}" title="${item.title}" loading="lazy">
                                 </a>
                             </li>
@@ -57,7 +57,12 @@ document.addEventListener('DOMContentLoaded', function() {
                     container.classList.remove('is-loading');
                 });
 
-
+                // Initialize GLightbox
+                if( typeof GLightbox !== 'undefined' ){
+                    const lightbox_dynamic = GLightbox({
+                        selector: '.glightbox-dynamic'
+                    });
+                }
             })
             .catch(error => {
                 console.error('Error fetching gallery snippet:', error);
@@ -105,8 +110,13 @@ document.addEventListener('DOMContentLoaded', function() {
                 });
             });
     }
-    
-    
+
+    // Initialize GLightbox
+    if( typeof GLightbox !== 'undefined' ){
+        const lightbox = GLightbox({
+            selector: '.glightbox'
+        });
+    }
 });
 
 function getRandomElements(arr, count) {
@@ -115,6 +125,6 @@ function getRandomElements(arr, count) {
         const j = Math.floor(Math.random() * (i + 1));
         [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]]; // Swap elements
     }
+    
     return shuffled.slice(0, count);
 }
-
