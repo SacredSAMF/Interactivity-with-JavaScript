@@ -179,6 +179,11 @@ a:focus{
 .skip-link a:focus{
     position: static;
 }
+@media (prefers-color-scheme: dark) {
+    .skip-link a{
+        color: #fff;
+    }
+}
 
 
 /* HEADER */
@@ -486,6 +491,9 @@ main{
     .quotes-list figure {
         box-shadow: 2px 2px 5px 0 #eee;
         color: #333;
+    }
+    .quotes-list figcaption {
+        color: #0D4E2E;
     }
 }
 
